@@ -34,7 +34,7 @@ class CardHelper extends Helper
      *
      * @var array
      */
-    public $helpers = [
+    public array $helpers = [
         'Html',
     ];
 
@@ -45,7 +45,7 @@ class CardHelper extends Helper
      *
      * @var array
      */
-    protected $_defaultConfig = [
+    protected array $_defaultConfig = [
         'templates' => [
             'cardGroupStart' => '<div role="tablist"{{attrs}}>',
             'cardGroupEnd' => '</div>',
